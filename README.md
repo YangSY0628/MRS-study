@@ -1,2 +1,2 @@
 # MRS-study
-MRS study materials
+Multi-Robot Systems, AI, and Related Fields: Study Resources
