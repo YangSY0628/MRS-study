@@ -1,6 +1,9 @@
 # Multi-Agent Reinforcement Learning
 - [course](https://www.youtube.com/watch?v=KN-XMQFTD0o)
-
+- [wang shusen slids](https://github.com/wangshusen/DRL/tree/master/Slides)
+- [上海交大张伟楠video course](https://www.bilibili.com/video/BV1GopzemEF2?spm_id_from=333.788.videopod.sections&vd_source=b8e03e6b596380d19f316dbe39b3cafd)
+- [上海交大张伟楠course pdf](https://wnzhang.net/teaching/sjtu-rl-2024/index.html)
+- [上海交大张伟楠course github](https://github.com/boyu-ai/Hands-on-RL?tab=readme-ov-file)
 ## Settings
 - Cooperative Settings: Agents work together to achieve a common goal, sharing rewards or optimizing team performance. Examples include collaborative robotics or team-based games.
 
@@ -9,7 +12,7 @@
 - Mixed Settings: Environments with both cooperative and competitive elements, such as trading markets or sports.
 
 - Self Interested: agents are those that act to maximize their own individual rewards without explicit regard for the goals or rewards of other agents. 
-![trade-agents](image.png)
+![trade-agents](images/image.png)
 
 ## Mathematics for Multi-Agent Reinforcement Learning (MARL)
 
@@ -87,3 +90,25 @@ V(s) = \mathbb{E}_{a^1, \dots, a^n \sim \pi^1, \dots, \pi^n} [Q(s, a^1, \dots, a
 - 一个agent policy改变，其他也会变，因此无法收敛
 
 ### Actor-Critic Methods
+
+### Training Paradigms of MARL
+![image](images/training-of-MARL.png)
+
+### privilege distillation
+
+### 猜疑链（多智能体）
+
+### mean filed approximation（many agents）
+当前action和周围neighbors的action分布进行建模，即可构建整个群体的q-function
+
+### should agents share parameters？
+It depends on replaceability of the agents.
+
+###
+large RL
+
+### 通用大模型智能体
+Gato
+
+### 多智能体大模型
+MAT
